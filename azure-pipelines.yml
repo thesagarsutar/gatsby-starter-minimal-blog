@@ -20,6 +20,9 @@ steps:
     cd gatsby-site
     npm install
     npx gatsby build
+    ls
+    ls
+    ls
   displayName: 'gatsby build'
  
 
