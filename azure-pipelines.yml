@@ -20,11 +20,11 @@ steps:
     cd gatsby-site
     npm install
     npx gatsby build
-    ls
-    ls
-    ls
-  displayName: 'gatsby build'
+  displayName: 'install packages'
  
+- script: |
+    gatsby build
+  displayName: 'gatsby build'
 
 - task: CopyFiles@2
   inputs:
